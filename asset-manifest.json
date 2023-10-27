@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.4245c991.css",
+    "main.js": "/My-Portfolio/static/js/main.d088877f.js",
+    "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Travel-Geek.png": "/My-Portfolio/static/media/Travel-Geek.2a85b8050400a8f8e093.png",
+    "static/media/WhereIsRobbert.png": "/My-Portfolio/static/media/WhereIsRobbert.f432836283a9a133e111.png",
+    "static/media/Vinita.jpg": "/My-Portfolio/static/media/Vinita.84c76cb31ddd541b4521.jpg",
+    "static/media/weather.png": "/My-Portfolio/static/media/weather.74ad185fe7dc2dc8dbef.png",
+    "static/media/vinita_navani_2022.pdf": "/My-Portfolio/static/media/vinita_navani_2022.9afff3d27b444209267e.pdf",
+    "static/media/HybridTracker1.png": "/My-Portfolio/static/media/HybridTracker1.c7fc67a26f40901c15ab.png",
+    "static/media/NoteTaker.png": "/My-Portfolio/static/media/NoteTaker.b31640192a60631eacac.png",
+    "static/media/Password_Generator.png": "/My-Portfolio/static/media/Password_Generator.b522817feaff0cefcd98.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.4245c991.css.map": "/My-Portfolio/static/css/main.4245c991.css.map",
+    "main.d088877f.js.map": "/My-Portfolio/static/js/main.d088877f.js.map",
+    "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4245c991.css",
+    "static/js/main.d088877f.js"
+  ]
+}

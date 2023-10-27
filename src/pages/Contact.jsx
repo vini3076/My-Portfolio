@@ -37,13 +37,7 @@ export default function Contact() {
             alert('Email format is invalid')
             return
         }
-        const emailMessage = {
-            message: message,
-            name: name,
-            subject: subject,
-            email: email
-
-        }
+      
         let form = document.getElementById('contact-form')
         emailjs.sendForm('service_603mx0m', 'template_x04vxpm', form, 'ZgucGgPcbHdpduhSp')
         .then((result) => {

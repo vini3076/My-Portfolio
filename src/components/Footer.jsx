@@ -1,12 +1,10 @@
 import React from 'react';
-import { Navbar, Nav, Container, Modal, Tab } from "react-bootstrap";
+import { Navbar, Nav, Container} from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
 	faTwitter,
 	faGithub,
-	faLinkedin,
-	faInstagram,
+	faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
 

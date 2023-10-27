@@ -1,5 +1,5 @@
 
-import { Navbar, Nav, Container, Modal, Tab } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 
 export default function AppNavbar() {
@@ -7,7 +7,7 @@ export default function AppNavbar() {
         <>
              <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Vinita Navani</Navbar.Brand>
+          <Navbar.Brand>Vinita Navani</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">About</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>

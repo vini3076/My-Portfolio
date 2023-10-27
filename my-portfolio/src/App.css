@@ -75,10 +75,17 @@
   position: relative;
   display: -webkit-inline-flex;
   margin-inline-start: 30px;
-  margin-top: 4vh;
+  margin-bottom: 50px;
 }
   .projects{
 padding: 5px;
   }
   
-  
+  a {
+    text-decoration: none !important;
+    color: black;
+  }
+
+  .skills {
+ margin-left: 350px;
+  }

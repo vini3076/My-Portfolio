@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import 'bootstrap/dist/css/bootstrap.css';
 import { validateEmail } from "../utils/helpers";
 import emailjs from '@emailjs/browser'
 
@@ -60,14 +61,12 @@ export default function Contact() {
 
 
     return(
-        <div className="contact_page">
+        <div>
   
 <section className="mb-4">
 
 
     <h2 className="font-weight-bold text-center my-4 contact_header">Contact me</h2>
-
-    <p className="text-center mx-auto mb-5 contact_sub_header">Do you have any questions? Please do not hesitate to contact me directly. I will get back to you as quickly as I can.</p>
 
     <div className="row">
 
@@ -81,7 +80,7 @@ export default function Contact() {
 
                     <div className="col-md-6">
                         <div className="md-form mb-0">
-                            <label className="">Your name</label>
+                            <label>Your name</label>
                             <input type="text" id="name" name="name" className="form-control" onChange={handleInputChange} value={name}/>
                         </div>
                     </div>
@@ -89,7 +88,7 @@ export default function Contact() {
 
                     <div className="col-md-6">
                         <div className="md-form mb-0">
-                            <label className="">Your email</label>
+                            <label>Your email</label>
                             <input type="text" id="email" name="email" className="form-control" onChange={handleInputChange} value={email}/>
                         </div>
                     </div>
@@ -100,7 +99,7 @@ export default function Contact() {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="md-form mb-0">
-                            <label className="">Subject</label>
+                            <label>Subject</label>
                             <input type="text" id="subject" name="subject" className="form-control" onChange={handleInputChange} value={subject}/>  
                         </div>
                     </div>
@@ -122,13 +121,10 @@ export default function Contact() {
             </form>
 
             <div className="text-center text-md-left">
-                <a className="btn btn-primary" onClick={handleFormSubmit}>Send</a>
+                <a className="btn btn-dark" onClick={handleFormSubmit}>Send</a>
             </div>
             <div className="status"></div>
         </div>
-
-        
-
 
     </div>
 

@@ -1,6 +1,7 @@
 import resume from "../images/vinita_navani_2022.pdf"
 import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
+import '../App.css';
 
 export default function Resume() {
     return (
@@ -9,7 +10,7 @@ export default function Resume() {
       <h1>
         Skills 
       </h1>
-      <Stack direction="horizontal" gap={2} style={{ textAlign: "center" }}>
+      <Stack className="skills" direction="horizontal" gap={2}>
       <h3>
         <Badge bg="secondary">Javascript</Badge>
       </h3>
@@ -22,12 +23,21 @@ export default function Resume() {
       <h3>
         <Badge bg="secondary">Node.js</Badge>
       </h3>
+      <h3>
+        <Badge bg="secondary">Express.js</Badge>
+      </h3>
+      <h3>
+        <Badge bg="secondary">MongoDB</Badge>
+      </h3>
+      <h3>
+        <Badge bg="secondary">GraphQL</Badge>
+      </h3>
       </Stack>
     </div>
   
     
           <a className="downloadButton" href={resume} Download>
-            download{" "}
+           Download Resume
           </a>
         </div> 
       );
